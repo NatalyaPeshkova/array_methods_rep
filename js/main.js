@@ -59,3 +59,14 @@ function showCharacters (JSONObj) {
     console.log('Третье задание: ', resultRaM);
 }
 
+// 4. Создайте объект
+// С помощью методов объекта и метода alert(), покажите всплывающие окно (alert()), для каждого свойства объекта.
+// Показать нужно и ключ и его значение.
+
+const obj = {
+    name: 'Jacob',
+    age: 20,
+    id: 1
+};
+console.log(Object.entries(obj));
+Object.entries(obj).forEach(([key, value]) => alert(`ключ: ${key} /  значение: ${value}`));
