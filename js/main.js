@@ -67,5 +67,4 @@ const obj = {
     age: 20,
     id: 1
 };
-console.log(Object.entries(obj));
 Object.entries(obj).forEach(([key, value]) => alert(`ключ: ${key} /  значение: ${value}`));
