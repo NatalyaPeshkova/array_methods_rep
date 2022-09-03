@@ -54,7 +54,6 @@ fetch('https://rickandmortyapi.com/api/character')
 
 function showCharacters (JSONObj) {
     const characters = JSONObj.results;
-    // console.log(characters);
     let resultRaM = characters.filter(item => item.id > 5 && item.id < 20);
     console.log('Третье задание: ', resultRaM);
 }
